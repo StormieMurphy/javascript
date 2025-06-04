@@ -40,12 +40,23 @@ const VALUE_TWO = 20;
 // console.log('It\'s a cat.');
 // console.log("It's a cat.");
 
-console.log(longstring.length);
+// console.log(longstring.length);
 const name = "Carl";
-console.log(name.length);
+// console.log(name.length);
 
-console.log(name.at(-2))
+// console.log(name.at(-2))
 
 // C, a, r, l -> String
 // 0, 1, 2, 3 -> Indexing starts from left to right.
 // -4,-3,-2,-1 -> Indexing starts from right to left.
+// 1, 2, 3, 4 -> This is for length.
+// Boolean value or data type only has true or false.
+// console.log(name.includes('ca'))
+
+// console.log(name.toUpperCase())
+
+console.log("     vntuhfdmlshs vjrhypd      vgsnijelraf       ".trim())
+console.log("     vntuhfdmlshs vjrhypd      vgsnijelraf       ".trim().length)
+console.log("     vntuhfdmlshs vjrhypd      vgsnijelraf       ".length)
+
+// "     vntuhfdmlshs vjrhypd      vgsnijelraf       " -> "vntuhfdmlshs vjrhypd      vgsnijelraf"
