@@ -49,9 +49,17 @@ const hexadecimalSeparator = 0xa0_b0_c0;
 // console.log(hexadecimalSeparator);
 
 // Static properties of the number object
-console.log(Number.MAX_SAFE_INTEGER);
-console.log(Number.MAX_VALUE);
-console.log(Number.MIN_SAFE_INTEGER);
-console.log(Number.MIN_VALUE);
+// console.log(Number.MAX_SAFE_INTEGER);
+// console.log(Number.MAX_VALUE);
+// console.log(Number.MIN_SAFE_INTEGER);
+// console.log(Number.MIN_VALUE);
 
+// Static methods of the Number object
+// console.log(Number.isNaN(ff));
+// console.log(Number.isInteger(10.99));
 
+const verifiedInt = Number.parseInt('42.99');
+// console.log(typeof verifiedInt);
+
+const verifiedFloat = Number.parseFloat('42.99');
+// console.log(typeof verifiedFloat);
