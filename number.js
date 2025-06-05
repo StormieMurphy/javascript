@@ -44,6 +44,14 @@ const decimalSeparator = 9_563.25; // 9,563.25
 const binarySeparator = 0b1010_0001;
 const hexadecimalSeparator = 0xa0_b0_c0;
 
-console.log(decimalSeparator);
-console.log(binarySeparator);
-console.log(hexadecimalSeparator);
+// console.log(decimalSeparator);
+// console.log(binarySeparator);
+// console.log(hexadecimalSeparator);
+
+// Static properties of the number object
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_SAFE_INTEGER);
+console.log(Number.MIN_VALUE);
+
+
