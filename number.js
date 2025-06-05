@@ -63,3 +63,9 @@ const verifiedInt = Number.parseInt('42.99');
 
 const verifiedFloat = Number.parseFloat('42.99');
 // console.log(typeof verifiedFloat);
+
+// Instance methods can be accessed from a variable
+console.log(value1.toExponential());
+console.log(value1.toFixed(2));
+console.log(value1.toPrecision(25));
+
