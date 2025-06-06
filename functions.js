@@ -20,4 +20,10 @@ function simpleFunctionThree(valueOne){
 const functionVariable = simpleFunctionTwo();
 // 
 
-console.log(functionVariable);
+// console.log(functionVariable);
+
+
+const squareFoot = function (length, width){
+    return length * width;
+};
+console.log(squareFoot(24, 32));
