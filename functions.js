@@ -62,3 +62,25 @@ function doSubtraction(operandOne, operandTwo = 10){ // always put default param
 };
 // console.log(doSubtraction(50,30));
 // console.log(doSubtraction(50));
+
+// Rest Parameters
+function restParameterFunction (...restParameter) {
+    console.log(restParameter);
+    
+};
+// restParameterFunction("welcome","to", "rest parameter", 4, 9, true, false);
+
+// Arrow function
+function normalFunction(value){ // A normal and traditional function
+    return value;
+};
+const arrowFunction = value => value;
+// const arrowFunction = (value) => {
+//     return value;
+// };
+// console.log(arrowFunction("I am from the arrow function!"));
+const arrowFunctionTwo = (paramOne, paramTwo, paramThree = "John.") => {
+    return paramOne + paramTwo + paramThree;
+};
+
+console.log(arrowFunctionTwo("My middle name ", "is "));
