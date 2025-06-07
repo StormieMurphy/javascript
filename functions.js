@@ -54,4 +54,11 @@ function parent() {
     child();
     // console.log(childVariable); // Error here due to scope of the nested function variable
 };
-parent();
+// parent();
+
+// Default parameters - adding a default parameter to a function will allow you to call a function and supply a value for that parameter or not.
+function doSubtraction(operandOne, operandTwo = 10){ // always put default parameters at the end of the parameter list.
+    return operandOne - operandTwo;
+};
+// console.log(doSubtraction(50,30));
+// console.log(doSubtraction(50));
