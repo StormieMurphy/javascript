@@ -26,4 +26,32 @@ const functionVariable = simpleFunctionTwo();
 const squareFoot = function (length, width){
     return length * width;
 };
-console.log(squareFoot(24, 32));
+// console.log(squareFoot(24, 32));
+
+// Variable Scope
+const firstName = "John";
+
+function sampleOne() {
+    const lastName = "Smith";
+    console.log(lastName);
+};
+
+function sampleTwo() {
+    console.log(firstName);
+    console.log(lastName); //Error due to out of variable scope.
+}
+
+// sampleOne();
+// sampleTwo();
+
+//Nested Functions - functions inside other functions
+function parent() {
+    const parentVariable = 15;
+    function child() {
+        const childVariable = parentVariable + 5;
+        console.log(childVariable);
+    };
+    child();
+    // console.log(childVariable); // Error here due to scope of the nested function variable
+};
+parent();
