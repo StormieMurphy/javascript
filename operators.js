@@ -36,4 +36,36 @@ function pemdasOrder(){
     console.log(`Result is: ${total}`);
 }
 
-pemdasOrder();
+// pemdasOrder();
+
+// Assignment operator
+
+function additionAssignment(){
+    let variableOne = 5;
+    let variableTwo = 10;
+    variableOne += variableTwo; //= variableOne = variableOne + variableTwo
+    console.log(variableOne);
+};
+// additionAssignment();
+function multiplyAssignment(){
+    let variableOne = 5;
+    const variableTwo = 10;
+    variableOne *= variableTwo;
+    console.log(variableOne);
+}
+// multiplyAssignment();
+
+// Comparison Operators
+function compare(paramOne,paramTwo){
+    const comparisonOne = paramOne == paramTwo; // 10 == "10"; -> true
+    const comparisonTwo = paramOne === paramTwo; // 10 === "10"; -> false
+    const comparisonThree = paramOne != paramTwo; // 10 != "10"; -> false
+    console.log(comparisonOne);
+    console.log(comparisonTwo);
+    console.log(comparisonThree);
+}
+
+// compare(10, "10");
+// compare(10, 10);
+// compare(10, 5);
+// compare("10", "10");
