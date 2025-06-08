@@ -63,9 +63,20 @@ function compare(paramOne,paramTwo){
     console.log(comparisonOne);
     console.log(comparisonTwo);
     console.log(comparisonThree);
-}
+};
 
 // compare(10, "10");
 // compare(10, 10);
 // compare(10, 5);
 // compare("10", "10");
+
+// Logical operators: &&, ||, !
+function logicallyCompare(paramOne, paramTwo){
+    const comparisonOne = paramOne < 10 && paramTwo > 1; // 6 < 10 && 3 > 1 -> true
+    const comparisonTwo = paramOne === 5 || paramTwo == 5; // 6 === 5 || 3 == 5 -> false
+    const comparisonThree = !(paramOne != paramTwo); // !(6 != 3) -> false
+    console.log(comparisonOne);
+    console.log(comparisonTwo);
+    console.log(comparisonThree);
+};
+// logicallyCompare(6, 3);
