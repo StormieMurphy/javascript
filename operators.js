@@ -80,3 +80,11 @@ function logicallyCompare(paramOne, paramTwo){
     console.log(comparisonThree);
 };
 // logicallyCompare(6, 3);
+
+// increment and decrement
+let delta = 10;
+const total = delta++; // post increment -> the value gets increased by 1 after the original value of the variable is used.
+const totalTwo = ++delta; // pre increment -> the value gets increased by 1 before the original value of the variable is used.
+console.log(delta);
+console.log(total);
+console.log(totalTwo);
