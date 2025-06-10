@@ -47,4 +47,10 @@ const logicalIfStatement = (paramOne, paramTwo) => {
         
     } else console.log("None of the conditions were true.");
     }
-logicalIfStatement(10, 12);
+// logicalIfStatement(10, 12);
+
+const ternaryOperatorFunc = (paramOne) => {
+    const result = paramOne > 10 ? "The value inside paramOne is greater than ten." : "The value inside paramOne is NOT greater than ten."
+    console.log(result);
+    }
+ternaryOperatorFunc(12);
