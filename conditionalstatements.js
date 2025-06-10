@@ -41,4 +41,10 @@ const logicalIfStatement = (paramOne, paramTwo) => {
     if(paramOne == 10 && paramTwo > 10){
         console.log("Both conditions were true.");
     } else console.log("Both conditions were false.");
-}
+
+    if (paramOne <= 9 || paramTwo > 20){
+        console.log("One of the conditions was true.");
+        
+    } else console.log("None of the conditions were true.");
+    }
+logicalIfStatement(10, 12);
