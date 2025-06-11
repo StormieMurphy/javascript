@@ -53,4 +53,27 @@ const ternaryOperatorFunc = (paramOne) => {
     const result = paramOne > 10 ? "The value inside paramOne is greater than ten." : "The value inside paramOne is NOT greater than ten."
     console.log(result);
     }
-ternaryOperatorFunc(12);
+// ternaryOperatorFunc(12);
+
+// Switch statement
+const favoriteColor = (color) => {
+   switch (color) {
+    case "Blue":
+        console.log(`My favorite color is ${color}.`);
+        break;
+    case "Red":
+    case "RED":
+    case "red":
+        console.log(`My favorite color is ${color}.`);
+        break;
+    case 10:
+        if (color % 2 == 0){
+            console.log("Case 10 was matched and the value inside color was an even number.")
+        }
+        break;
+    default:
+        console.log(`My favorite color is ${color}. DEFAULT!`);
+        break;
+    } 
+}
+favoriteColor("RED");
