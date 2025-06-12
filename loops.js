@@ -25,4 +25,18 @@ const forLoopExample = () => {
 
     };
 }
-forLoopExample();
+// forLoopExample();
+
+// Break and Continue Keywords
+const breakAndContinueExample = () => {
+    for (index = 0; index < 10; index++) {
+        if (index === 2) continue;
+        if (index === 7) {
+            console.log("Loop stops!");
+            break;
+        }
+        console.log(index);
+    };
+    console.log("Loop ends!");   
+}
+breakAndContinueExample();
