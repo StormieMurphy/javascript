@@ -39,4 +39,15 @@ const breakAndContinueExample = () => {
     };
     console.log("Loop ends!");   
 }
-breakAndContinueExample();
+// breakAndContinueExample();
+
+// Label statement
+const labelExample = () => {
+    let value = "";
+    loopLabel: for (index = 0; index < 30; index++) {
+        if (index % 2 == 0) continue loopLabel
+        value += `${index}, `;
+    };
+    console.log(value);
+};
+labelExample();
