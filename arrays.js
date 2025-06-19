@@ -24,6 +24,21 @@ const updateElement = (indexNum) => {
 // console.log(mixture.length);
 
 // Using a for loop with an array
-for (index = 0; index < week.length; index++) {
-    console.log(week[index]);
-};
+// for (index = 0; index < week.length; index++) {
+//     console.log(week[index]);
+// };
+
+// for(const item of week){
+//     console.log(item);
+// }
+
+//forEach instance method
+// mixture.forEach((item) => {
+//     console.log(item);
+// })
+
+// console.log(week.join(' - '));
+
+const returnedArr = week.slice(1, 3);
+console.log(returnedArr);
+console.log(week);
