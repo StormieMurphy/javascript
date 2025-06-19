@@ -40,5 +40,18 @@ const updateElement = (indexNum) => {
 // console.log(week.join(' - '));
 
 const returnedArr = week.slice(1, 3);
-console.log(returnedArr);
+// console.log(returnedArr);
+// console.log(week);
+
+// const result = week.pop();
+// console.log(result);
+// console.log(week);
+
+// const reversedArr = week.reverse();
+// console.log(reversedArr);
+// reversedArr[1] = 'aaa'
+// console.log(week);
+
+const pushExample = week.push('bob', true);
+console.log(pushExample);
 console.log(week);
