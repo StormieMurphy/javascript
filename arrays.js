@@ -13,5 +13,17 @@ const getDay = (indexNum) => {
     const day = week[indexNum];
     console.log(day);  
 }
-getDay(5);
+// getDay(-3);
+ 
+const updateElement = (indexNum) => {
+    values[indexNum] = true
+    console.log(values);
+}
+// updateElement(3);
 
+// console.log(mixture.length);
+
+// Using a for loop with an array
+for (index = 0; index < week.length; index++) {
+    console.log(week[index]);
+};
