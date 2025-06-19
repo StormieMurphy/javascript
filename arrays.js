@@ -1,0 +1,17 @@
+const week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+//              0          1           2             3          4         5           6     => index
+//              1          2           3             4          5         6           7     => position
+// console.log(week);
+
+const values = new Array(1, 2, 3, 4, 5);
+// console.log(values);
+
+const mixture = ['string', 10, true, () => {console.log('I am inside an arrow function.');}];
+// console.log(mixture);
+
+const getDay = (indexNum) => {
+    const day = week[indexNum];
+    console.log(day);  
+}
+getDay(5);
+
