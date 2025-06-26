@@ -11,4 +11,19 @@ const programmingLanguages = new Map([
     ["RR", "Ruby on Rails"]
 ]);
 
-console.log(programmingLanguages);
+// console.log(programmingLanguages.size);
+// programmingLanguages.clear();
+
+// const result = programmingLanguages.delete("Rr");
+// console.log(result);
+
+// const language = programmingLanguages.get("js");
+// console.log(language);
+
+
+// console.log(programmingLanguages.has("JA"));
+
+// Loop a map collection
+for (let lang of programmingLanguages){
+    console.log(lang);
+}
