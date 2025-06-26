@@ -24,6 +24,15 @@ const programmingLanguages = new Map([
 // console.log(programmingLanguages.has("JA"));
 
 // Loop a map collection
-for (let lang of programmingLanguages){
-    console.log(lang);
+// for (let lang of programmingLanguages){
+//     console.log(lang);
+// }
+
+// for (let key of programmingLanguages.keys()) {
+//     console.log(key);
+// }
+
+console.log(programmingLanguages.entries());
+for (let key of programmingLanguages.entries()) {
+    console.log(key);
 }
