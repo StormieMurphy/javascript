@@ -32,7 +32,21 @@ const programmingLanguages = new Map([
 //     console.log(key);
 // }
 
-console.log(programmingLanguages.entries());
-for (let key of programmingLanguages.entries()) {
-    console.log(key);
-}
+// console.log(programmingLanguages.entries());
+// for (let item of programmingLanguages.entries()) {
+//     console.log(item);
+// }
+
+// function processData (value, key) {
+//     console.log(`The key is ${key} and the value is ${value}.`);
+// }
+
+// programmingLanguages.forEach(processData);
+
+// programmingLanguages.forEach((value, key) => {
+//     console.log(`The key is ${key} and the value is ${value}.`);
+// })
+
+programmingLanguages.forEach(function processData(value, key) {
+    console.log(`The key is ${key} and the value is ${value}.`);
+})
