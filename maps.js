@@ -17,7 +17,7 @@ const programmingLanguages = new Map([
 // const result = programmingLanguages.delete("Rr");
 // console.log(result);
 
-// const language = programmingLanguages.get("js");
+// const language = programmingLanguages.get("JS");
 // console.log(language);
 
 
@@ -47,6 +47,6 @@ const programmingLanguages = new Map([
 //     console.log(`The key is ${key} and the value is ${value}.`);
 // })
 
-programmingLanguages.forEach(function processData(value, key) {
-    console.log(`The key is ${key} and the value is ${value}.`);
-})
+// programmingLanguages.forEach(function processData(value, key) {
+//     console.log(`The key is ${key} and the value is ${value}.`);
+// })
