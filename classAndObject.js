@@ -4,13 +4,13 @@
 // // house.doorColor = "White";
 // // house.roofType = "Composite";
 
-// // const house = {
-// //   foundation: "Concrete",
-// //   numOfWindows: 20,
-// //   doorColor: "White",
-// //   roofType: "Composite"
-// // };
-// // house.lawn = "something";
+const house = {
+  foundation: "Concrete",
+  numOfWindows: 20,
+  doorColor: "White",
+  roofType: "Composite"
+};
+house.lawn = "something";
 
 // // // house["numOfWindows"] = 40;
 
